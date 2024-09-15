@@ -1,3 +1,24 @@
+# Cursor IDE Code Generation Rules
+
+These rules define the guidelines and processes for generating code within the Cursor IDE environment. They are specifically designed to assist developers by focusing on producing real, executable code solutions that can be immediately integrated into development workflows. The rules, guiding steps, meta tags, and analysis processes help ensure that the code generated is efficient, secure, and adheres to best practices.
+
+## How to Use
+
+To configure these rules in Cursor IDE:
+
+1. Open Cursor IDE.
+2. Click on the gear icon (⚙️) located at the top right to access the **Settings** menu.
+3. Navigate to the **Rules for AI** section.
+4. Copy and paste the structured code blocks below directly into the configuration field.
+
+By setting these rules, you ensure that the AI within Cursor IDE follows these detailed guidelines, leading to efficient, maintainable, and secure code generation.
+
+---
+
+### Code Generation Rules
+
+```
+
 <code_generation_rules>
 When generating code or assisting with programming tasks:
 
@@ -99,3 +120,8 @@ DO NOT GIVE ME HIGH LEVEL THEORY, IF I ASK FOR FIX OR EXPLANATION, I WANT ACTUAL
 - Focus on readability over being performant.
 - Fully implement all requested functionality.
 - Leave NO todo’s, placeholders or missing pieces.
+```
+
+---
+
+By following these rules, Cursor IDE will focus on generating high-quality, functional code that addresses your specific needs. It ensures practical, real-world solutions while maintaining efficiency, scalability, and security throughout the development process.
